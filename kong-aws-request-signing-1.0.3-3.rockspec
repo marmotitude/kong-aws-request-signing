@@ -3,7 +3,8 @@ local package_name = "kong-" .. plugin_name
 local package_version = "1.0.3"
 local rockspec_revision = "3"
 
-local github_account_name = "LEGO"
+-- local github_account_name = "LEGO"
+local github_account_name = "marmotitude"
 local github_repo_name = "kong-aws-request-signing"
 local git_checkout = package_version == "dev" and "MAIN" or package_version
 
